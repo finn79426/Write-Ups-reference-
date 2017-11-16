@@ -1,12 +1,12 @@
 # Index
-* [AIS3 2017 pre-exem](#AIS3 2017 pre-exem)
+
+* [AIS3 2017 pre-exem](#AIS3-2017-pre-exem)
 
 
-# AIS3 2017 pre-exem
+## AIS3-2017-pre-exem
+* [crypto1 (XOR)](#crypto1)
 
-* [crypto1 (XOR)](##crypto1 (XOR))
-
-## crypto1 (XOR)
+## crypto1
 ****
 Author:TastyFeeder
 Source:[TastyFeederの世界線](http://www.tastyfeeder.com/2017/07/ctf-ais3-pre-exam-2017-writeup.html)
