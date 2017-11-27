@@ -61,10 +61,10 @@ int main() {
 }    
 ```
 
-## TUCTF_2017
+## TUCTF-2017
 * [GitGud (.git visible)](#GitGud)
-* [Cookie Harrelson (cookie modify&bypass)](#Cookie_Harrelson)
-* [iFrame and Shame (php code inject)](#iFrame_and_Shame)
+* [Cookie Harrelson (cookie modify&bypass)](#Cookie-Harrelson)
+* [iFrame and Shame (php code inject)](#iFrame-and-Shame)
 
 ### GitGud
 ****
@@ -77,14 +77,14 @@ flag告訴你：<font color=red>Don't make git public</font>
 要避免這樣的情況，應該要把.git設成403，或是把.git加到.gitignore裡面  
 等把git弄熟一點再回來把WriteUp寫的詳細一點
 
-### Cookie_Harrelson
+### Cookie-Harrelson
 第1次造訪網站，cookie會是 "cat index.txt"  
 這個時候重新整理網頁(第2次)，然後用burp去改cookie成"cat flag.txt"  
 但是response回來的cookie:"cat index.txt #cat flag.txt"  
 可以看到他把flag.txt註解掉了，最後解法居然是換行...= =  
 flag告訴你：<font color=red>Don't execute from cookie</font>  
 
-### iFrame_and_Shame
+### iFrame-and-Shame
 代碼注入，單純考驗你思維夠不夠猥瑣ㄅ  
 居然可以從  
 ```php=
